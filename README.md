@@ -2,6 +2,16 @@
 
 A simple repository that bootstraps application. npm packages will be updated from time to time.
 
+## Setup
+
+- git clone this repo
+- npm install
+- npm run dev
+
+```
+*if ever you encounter errors during, you can try to run `npm i --legacy-peer-deps`
+```
+
 ## Directory Structure
 
 The boilerplate has basic default folders. The top level directory structure will be as follows:

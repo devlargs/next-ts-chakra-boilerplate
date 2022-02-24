@@ -9,7 +9,7 @@ A simple repository that bootstraps application. npm packages will be updated fr
 - npm run dev
 
 ```
-*if ever you encounter errors during, you can try to run `npm i --legacy-peer-deps`
+*if ever you encounter errors during npm install, you can try to run `npm i --legacy-peer-deps`
 ```
 
 ## Directory Structure

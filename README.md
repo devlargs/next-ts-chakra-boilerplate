@@ -1,21 +1,20 @@
+# NextJS, Typescript, Chakra UI Boilerplate
+
+A simple repository that bootstraps application. npm packages will be updated from time to time.
+
 ## Directory Structure
 
-The top level directory structure will be as follows:
+The boilerplate has basic default folders. The top level directory structure will be as follows:
 
-- assets - global static assets such as images, svgs, company logo, etc.
-- components - global shared/reusable components, such as layout (wrappers, navigation), form components, buttons
-- modules - JavaScript modules (all components under specific page should go here, e.g. **modules/dashboard/component.tsx** will contain components rendered in **pages/dashboard.tsx**)
-- store - Global Redux store
-- utils - Utilities & helper functions and the like
+- .vscode - A default vscode configuration to help organize imports
+- components - This is where we put global shared/reusable components, such as layout (wrappers, navigation), form components, buttons
 - pages - NextJS page files
+- public - folder for self hosted assets
+- store - Global state management tool
 
 ## Path aliasing
 
 Added path aliasing **(@folder-name)** is used to easily determine which files were imported locally and from library, this is very helpful for better organization of imports. Library imports should come first then local.
-
-## Graphql codegen
-
-Running **graphql-codegen** requires you to add **.env** file with `API_URL`'s value as your graphql endpoint. After doing so, you can do `npm run codegen` which will auto generate the typescript definitions for you.
 
 ## We use this tools
 
@@ -24,6 +23,5 @@ Running **graphql-codegen** requires you to add **.env** file with `API_URL`'s v
 - [Prettier](https://prettier.io/)
 - [Lint Staged](https://github.com/okonet/lint-staged)
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
-- [graphql-codegen](https://www.graphql-code-generator.com/)
 
 ### [Structure reference](https://www.taniarascia.com/react-architecture-directory-structure)
